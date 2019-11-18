@@ -1,0 +1,11 @@
+一、自报家门（一次）
+git config --global user.name（用户名）....
+git config --global user.email（邮箱）....
+二、初始化仓库
+git init
+三、创建版本
+git add .（将更改添加到 暂存区）
+git commit -m"更改标记" (将暂存区中的内容加到主分支)
+四、时光机
+1 git log 查看不同的版本
+2 git reset --hard 版本号 （实现不同版本的跳转）
